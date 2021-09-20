@@ -15,6 +15,6 @@ btn.onclick = function() {
 
 // When the user click on "donate now" button, it will close the modal.
 span.onclick = function() {
-  modal.style.display="none";
+  modal.style.display="/donation_thank_you.html";
 }
 
