@@ -294,6 +294,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 	display: flex;
 	align-items: center;
     margin-left: 50px;
+    position: relative;
 }
 
 
@@ -308,9 +309,27 @@ h1, h2, h3, h3, h4, h5, h6 {
 }
 
 .container-image {
-	display: flex;
+	display: block;
+	opacity: 0;
 }
 
+.container-image-start {
+  display: hidden;
+}  
+
+.container-image-animation {
+  animation: photos ease-in 2s;
+  display: block;
+}
+
+@keyframes photos {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
 
 .container-paragraph {
 	display: block;
@@ -354,10 +373,6 @@ span {
 }
 
 .mail-address {
-	Display:  flex;
-	justify-content: space-evenly;
-	font-size: 14px;
-	padding:  10px;
 	text-decoration: none;
 	color:  white;
 }
@@ -368,14 +383,14 @@ span {
 	padding-top: 10px;
 	padding-left: 0;
 	padding-bottom: 20px;
-	width: 100%;
+	max-width: 100%;
 }
 
 
 .text-only-container {
 	margin-left: 0px;
 	padding: 0px;
-	width: 100%;
+	max-width: 100%;
 }
 
 
@@ -388,7 +403,7 @@ span {
 
 .container-left {
 	padding: 20px 0 0 0;
-	width: 100%;
+	max-width: 100%;
 }
 
 .container-right {
@@ -398,7 +413,7 @@ span {
 
 .container-image {
 	display: flex;
-	width: 100%;
+	max-width: 100%;
 }
 
 
@@ -419,8 +434,10 @@ span {
 	padding-bottom: 25px;
 	padding-top: 20px;
 	margin: 0;
-	width: 100%;
+	max-width: 100%;
 }
+
+/*Modal CSS*/
 
 .modal {
 	position: fixed;
@@ -488,17 +505,45 @@ span {
 	font-size: 13px;
 	padding:  0;
 	text-decoration: none;
-  	/*flex-direction: column;*/
-  	
+	color: white;
+  	/*flex-direction: column;*/ 	
 }
 
+
 .mail-address {
-	Display:  flex;
+	/*Display:  flex;
 	justify-content: space-evenly;
 	font-size: 13px;
-	padding:  0;
+	padding:  0;*/
 	text-decoration: none;
 	color:  white;
 }
 
+.thank-you-left {
+	padding: 20px 0 0 0;
+	width: 100%;
 }
+.thank-you-container-image {
+	display: flex;
+	max-width: 100%;
+	padding: 10px 10px 10px 10px;
+}
+
+.thank-you-text {
+	padding: 20px 0 0 0;
+}
+
+.thank-you-button {
+	background-color: #b5a076;
+	border: none;
+	color:  white;
+	cursor: pointer;
+	font-size:  16px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+	width:  150px;
+	padding: 10px;
+}
+

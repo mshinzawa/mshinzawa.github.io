@@ -19,3 +19,25 @@ span.onclick = function() {
   location.href= 'donation_thank_you.html';
 }
 
+// images will show while scroll
+const observer = new IntersectionObserver(entries => {
+  // We will fill in the callback later...
+console.log(entries)
+  
+  entries.forEach(entry => {
+    // If the element is visible
+    if (entry.isIntersecting) {
+      // Add the animation class
+      entry.target.classList.add('container-image-animation');
+      entry.target.classList.remove('container-image-start');
+    }
+  });
+
+  
+});
+
+// Tell the observer all images to show
+const imageList = document.querySelectorAll('.container-image-start');
+imageList.forEach((el) => {
+  observer.observe(el);
+})
