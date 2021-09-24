@@ -377,6 +377,39 @@ span {
 	color:  white;
 }
 
+/*donation_thank_you.html CSS*/
+
+
+.thank-you-left {
+	padding: 20px 0 0 0;
+	width: 100%;
+}
+.thank-you-container-image {
+	display: flex;
+	max-width: 100%;
+	padding: 10px 10px 10px 10px;
+}
+
+.thank-you-text {
+	padding: 20px 0 0 0;
+}
+
+.thank-you-button {
+	background-color: #b5a076;
+	border: none;
+	color:  white;
+	cursor: pointer;
+	font-size:  16px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+	width:  150px;
+	padding: 10px;
+}
+
+/*Response Design for mobil size*/
+
 @media (min-width: 480px) and (max-width: 960px) {
 
 	.all-containers {
@@ -505,45 +538,11 @@ span {
 	font-size: 13px;
 	padding:  0;
 	text-decoration: none;
-	color: white;
-  	/*flex-direction: column;*/ 	
+	color: white;	
 }
 
 
 .mail-address {
-	/*Display:  flex;
-	justify-content: space-evenly;
-	font-size: 13px;
-	padding:  0;*/
 	text-decoration: none;
 	color:  white;
 }
-
-.thank-you-left {
-	padding: 20px 0 0 0;
-	width: 100%;
-}
-.thank-you-container-image {
-	display: flex;
-	max-width: 100%;
-	padding: 10px 10px 10px 10px;
-}
-
-.thank-you-text {
-	padding: 20px 0 0 0;
-}
-
-.thank-you-button {
-	background-color: #b5a076;
-	border: none;
-	color:  white;
-	cursor: pointer;
-	font-size:  16px;
-	letter-spacing: 1px;
-	text-align: center;
-	text-decoration: none;
-	transition: 0.2s ease-in-out;
-	width:  150px;
-	padding: 10px;
-}
-
