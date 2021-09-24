@@ -256,9 +256,11 @@ h1, h2, h3, h3, h4, h5, h6 {
 
 
 .text-only-container {
-	/*border: 3px solid blue;*/
+	/*border: 3px solid blue*/;
 	margin-left: 50px;
-	padding: 35px;
+	padding-top: 35px;
+	padding-left: 200px;
+	padding-bottom: 50px;
 	width: 600px;
 }
 
@@ -266,7 +268,6 @@ h1, h2, h3, h3, h4, h5, h6 {
 	display: block;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-
 }
 
 .all-buttons {
@@ -291,8 +292,9 @@ h1, h2, h3, h3, h4, h5, h6 {
 .container {
 	display: flex;
 	align-items: center;
-    margin-left: 50px;
+    margin-bottom: 50px;
     position: relative;
+    justify-content: space-evenly;
 }
 
 
@@ -302,7 +304,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 }
 
 .container-right {
-	margin: 250px;
+	margin-left: 290px;
 }
 
 .container-image {
