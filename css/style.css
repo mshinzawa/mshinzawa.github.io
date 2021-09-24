@@ -90,8 +90,6 @@ h1, h2, h3, h3, h4, h5, h6 {
 	width: 100%;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
-	padding-inline-start: 0;
-    padding-inline-end: 0;
 	color: white;
 	text-align: center;
 	padding-top: 12px;
@@ -384,15 +382,26 @@ span {
 	padding: 20px 0 0 0;
 	width: 100%;
 }
-.thank-you-container-image {
-	display: flex;
-	max-width: 100%;
-	padding: 10px 10px 10px 10px;
-}
+.ty-top-image {
+	background-image: url('../images/a_girl_smiling_1500x900.jpg');
+	min-height: 750px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	}
 
 .thank-you-text {
-	padding: 20px 0 0 0;
+	padding: 25px 0 0 25px;
+
 }
+
+.ty-container-paragraph {
+	display: block;
+	padding: 0 0 0 0;
+	width: 1500px;
+	/*border:  2px solid black;*/
+} 
 
 .thank-you-button {
 	background-color: #b5a076;
@@ -412,7 +421,7 @@ span {
 
 @media (min-width: 480px) and (max-width: 960px) {
 
-	.all-containers {
+.all-containers {
 	padding-top: 10px;
 	padding-left: 0;
 	padding-bottom: 20px;
@@ -431,6 +440,7 @@ span {
 	display: block;
 	align-items: center;
     margin-left: 0px;
+    max-width: 100%;
 }
 
 
@@ -442,6 +452,7 @@ span {
 .container-right {
 	margin: 0px;
 	padding: 20px 0 0 0;
+	max-width: 100%;
 }
 
 .container-image {
@@ -454,7 +465,8 @@ span {
 	display: block;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	width: 600px;
+	/*width: 600px;*/
+	max-width: 100%;
 } 
 
 .contact-image {
@@ -531,6 +543,44 @@ span {
 	padding:  10px 0 0 0;
 	line-height: 1em; 
 	height: 50px;
+}
+
+.thank-you-left {
+	padding: 20px 0 0 0;
+	width: 100%;
+}
+.ty-top-image {
+	background-image: url('../images/a_girl_smiling_1500x900.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	position: relative;
+	}
+
+.thank-you-text {
+	padding: 25px 0 0 25px;
+
+}
+
+.ty-container-paragraph {
+	display: block;
+	padding: 0 0 0 0;
+	max-width: 100%;
+} 
+
+.thank-you-button {
+	background-color: #b5a076;
+	border: none;
+	color:  white;
+	cursor: pointer;
+	font-size:  16px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+	width:  150px;
+	padding: 10px;
 }
 
 .contact-lists {
