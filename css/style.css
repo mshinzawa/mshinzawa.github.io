@@ -525,6 +525,7 @@ span {
 	padding-top: 20px;
 	margin: 0;
 	max-width: 100%;
+	height:  auto;
 }
 
 /*Modal CSS*/
@@ -601,6 +602,7 @@ span {
 	background-size: cover;
 	max-width: 100%;
 	position: relative;
+	height: auto;
 	}
 
 .thank-you-text {
