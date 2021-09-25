@@ -455,7 +455,7 @@ span {
 	text-align: center;
 	text-decoration: none;
 	transition: 0.2s ease-in-out;
-	width: 160px;
+	width: 130px;
 	padding: 15px;
 	border:  none;
 }
@@ -636,6 +636,8 @@ span {
 	padding:  0;
 	text-decoration: none;
 	color: white;	
+	max-width: 100%;
+	height: auto;
 }
 
 
