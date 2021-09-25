@@ -499,6 +499,12 @@ span {
 	max-width: 100%;
 }
 
+.container-image-animation {
+  animation: photos ease-in 2s;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container-paragraph {
 	display: block;
