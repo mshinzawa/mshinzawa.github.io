@@ -8,7 +8,7 @@ body {
 }
 
 
-h1, h2, h3, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
 	margin:  0;
 }
 
@@ -20,12 +20,12 @@ h1, h2, h3, h3, h4, h5, h6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	}
+}
 
 .main-nav-container {
 	display: flex;
 	justify-content: flex-end;
-	margin; 100px
+	margin: 100px;
 	width:  auto;
 	
 }
@@ -105,7 +105,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	font-size: 18px;
-	bottom: 0px;
+	bottom: 0;
 	position: absolute;
 	cursor: pointer;
 	font-weight: 800;
@@ -124,7 +124,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 	font-size: 17px;
 	padding: 10px;
 	border-radius: 4px;
-	border-width: 0px;
+	border-width: 0;
 	color: #5C5C5C;
 	margin-bottom: 10px;
 }
@@ -143,7 +143,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 	margin-bottom: 10px;
 	text-align: center;
 	color: white;
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0 15px 0;
 	border-radius: 4px;
 	font-size: 20px;
 	cursor: pointer;
@@ -158,18 +158,16 @@ h1, h2, h3, h3, h4, h5, h6 {
 }
 
 .donation-box .amount .button input {
-	min-width: 34px;
-	font-size: 20px;
-	font-weight: 500;
-	border: none;
 	background-color: transparent;
+	border: none;
+	border-bottom: 2px dashed white;
 	color: white;
 	font-size: 20px;
 	font-stretch: normal;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	border-bottom: 2px dashed white;
+	min-width: 34px;
 	transition: all 0.15s ease-out;
 }
 
@@ -202,7 +200,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 	transition: all 0.15s ease-out;
 }
 
-.checkbox:active, .checkbox:checked:active {
+.checkbox:active.checkbox:checked:active {
 	
 }
 
@@ -215,7 +213,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 .checkbox:checked:after {
 	font-size: 12px;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: 3px;
 	color: white;
 }
@@ -239,7 +237,7 @@ h1, h2, h3, h3, h4, h5, h6 {
 
 .gpa-main-nav-header-text {
 	position: absolute;
-	bottom:  0px;
+	bottom:  0;
 	right:  5px;
 	color:  white;
 	font-size:  55px;
@@ -420,11 +418,11 @@ span {
 
 /*Response Design for mobil size*/
 
-@media (min-width: 400px) and (max-width: 960px) {
+@media (min-width: 480px) and (max-width: 960px) {
 
 .gpa-main-nav-header-text {
 	position: absolute;
-	bottom:  0px;
+	bottom:  0;
 	right:  5px;
 	color:  white;
 	font-size:  40px;
@@ -451,8 +449,8 @@ span {
 .container {
 	display: block;
 	align-items: center;
-    margin-left: 0px;
-    max-width: 100%;
+  margin-left: 0px;
+  max-width: 100%;
 }
 
 
@@ -462,7 +460,7 @@ span {
 }
 
 .container-right {
-	margin: 0px;
+	margin: 0;
 	padding: 20px 0 0 0;
 	max-width: 100%;
 }
@@ -548,7 +546,7 @@ span {
 }
 
 .contact-container {
-	position: flex;
+	position: fixed;
 	width: 100%;
 	background-color: #59564f;
 	color: white;
