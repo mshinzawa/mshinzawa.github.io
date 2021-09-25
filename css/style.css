@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: flex-end;
 	margin: 100px;
 	width:  auto;
-	
 }
 
 .main-nav {
@@ -254,7 +253,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .text-only-container {
-	/*border: 3px solid blue*/;
 	margin-left: 50px;
 	padding-top: 35px;
 	padding-left: 200px;
@@ -418,7 +416,7 @@ span {
 
 /*Response Design for mobil size*/
 
-@media (min-width: 480px) and (max-width: 960px) {
+@media only screen and (max-width: 768px){
 
 .gpa-main-nav-header-text {
 	position: absolute;
@@ -429,6 +427,37 @@ span {
 	padding: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+}
+
+.main-nav-container {
+/*	display: flex;
+	justify-content: space-around;*/
+	margin: 100px;
+	width:  auto;
+}
+
+.navbar-element {
+	display: flex;
+	justify-content: space-around;
+	color:  white;
+	text-align:  center;
+	padding: 10px 14px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.button-make-a-gift-text {
+	background-color: #AF2C10;
+	color: white;
+	cursor: pointer;
+	font-size:  20px;
+	margin: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+	width: 160px;
+	padding: 15px;
+	border:  none;
 }
 
 .all-containers {
