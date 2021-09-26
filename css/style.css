@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav-container {
 	display: flex;
 	justify-content: flex-end;
-	margin: 100px;
 	width:  auto;
 }
 
@@ -455,7 +454,7 @@ span {
 	text-align: center;
 	text-decoration: none;
 	transition: 0.2s ease-in-out;
-	width: 130px;
+	/*width: 130px;*/
 	padding: 15px;
 	border:  none;
 }
